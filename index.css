@@ -1,0 +1,52 @@
+body {
+    padding: 40px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 20px;
+  }
+  
+  .text > P {
+    color: green;
+  }
+  .text > span {
+    background: #8080804a;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 12px 13px 4px 2px;
+
+  }
+  .text >h6{
+    margin-bottom: 25px;
+  }
+
+  .proflie{
+    background-color: #cccccc24;
+    border: 1px solid #cccccc4a;
+}
+  
+  .proflie > img {
+    
+    border-radius: 20px;
+    padding: 15px;
+   
+  } 
+  .proflie > span{
+    color: #0000007d;
+  }
